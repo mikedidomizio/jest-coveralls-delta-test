@@ -3,6 +3,9 @@
 
 name: Test Coveralls Delta
 
+on:
+  [push]
+
 jobs:
   build:
 
