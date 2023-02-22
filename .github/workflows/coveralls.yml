@@ -4,7 +4,7 @@
 name: Test Coveralls Delta
 
 on:
-  [push]
+  [pull_request, push]
 
 jobs:
   build:
