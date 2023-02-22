@@ -4,4 +4,8 @@ export function testFn(str: string) {
   } else {
     console.log('does not equal foo!')
   }
+
+  if (str === 'hello') {
+    console.log('world')
+  }
 }
